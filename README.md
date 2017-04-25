@@ -11,5 +11,5 @@ Write code to set 100 thousand records in redis as fast as possible, without usi
 
 Write code that maximizes the throughput of writing key value pairs to Redis.
 
- - A nonoptimal solution is provided in [this file]((src/main/java/com/uken/platform/interview/problem1/RedisService.java). This solution will max the CPU usage of the server running it but the throughput (e.g.: 10K requests per second) is not optimal and the problem is to increase this number.
+ - A nonoptimal solution is provided in [this file](src/main/java/com/uken/platform/interview/problem2/RedisController.java). This solution will max the CPU usage of the server running it but the throughput (e.g.: 10K requests per second) is not optimal and the problem is to increase this number.
  - Your code will be benchmarked against a redis instance in a different continent than the code.
