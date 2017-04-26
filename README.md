@@ -18,4 +18,4 @@ Write code that maximizes the throughput of writing key value pairs to Redis.
 ### Notes ###
 - Challenge1 and Challenge2 are sharing the same repo for convenience but they are independent Challenges.
 - Write a short explanation of why your solution improves on the provided sample solutions.
--
+- You can use different frameworks to solve the problems, but scripted solutions (e.g.: Bash script that generates redis protocol file for mass insertion) will not be accepted.
