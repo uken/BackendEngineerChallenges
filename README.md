@@ -23,6 +23,9 @@ Write code that maximizes the throughput of writing key value pairs to Redis.
 - You can use different frameworks to solve the problems, but scripted solutions (e.g.: Bash script that generates redis protocol file for mass insertion) will not be accepted.
 - We are not looking for infrastructure related solutions (e.g.: Adding more hardware, changing redis server location and etc).
 
+#### Bonus ####
+- Make a docker image with your solution
+
 ## Question 2
 
 You are tasked with creating a pipeline of user generated events. Each event is represented as a simple ~1KB JSON object, which includes a timestamp and a user_id. Currently, the events take 1TB of disk space and they are growing at a rate of 4,000 events per second. Each user can generate thousands of events. How would you design a low maintenance system with the following specs:
