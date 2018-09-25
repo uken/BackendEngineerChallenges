@@ -28,9 +28,9 @@ Write code that maximizes the throughput of writing key value pairs to Redis.
 
 ## Question 2
 
-You are tasked with creating a pipeline of user generated events. Each event is represented as a simple ~1KB JSON object, which includes a timestamp and a user_id. Currently, the events take 1TB of disk space and they are growing at a rate of 4,000 events per second. Each user can generate thousands of events. How would you design a low maintenance system with the following specs:
+You are tasked with creating a pipeline of user generated events. Each event is represented as a simple ~1KB JSON object, which includes a timestamp and a user_id. Currently, the events take 1TB of disk space and they are growing at a rate of 4,000 events per second. Each user can generate thousands of events. The task is to provide a design document for a low maintenance system with the following specs:
  - Allows for quick retrieval (<10ms) of a single user’s last 100 events at a rate of 1000ops/sec
- - Allows for data to be processed both in batch(hourly/daily) and in real time
+ - Allows for the raw user generated events to be processed both in batch(hourly/daily) and in real time
  - How can you make the system reliable?
  - How can you ensure the system will scale?
 
